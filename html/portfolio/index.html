@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arnav Singh Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Arnav Singh</h1>
+      <p>Computer Engineering Student</p>
+      <p>Ghaziabad, Uttar Pradesh</p>
+      <p>Email: <a href="mailto:arnavwork08@gmail.com">arnavwork08@gmail.com</a></p>
+      <p>
+        LinkedIn: <a href="https://linkedin.com/in/arnavsingh">Arnav Singh</a> |
+        GitHub: <a href="https://github.com/arnavsingh18">arnavsingh18</a>
+      </p>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="tab">
+      <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
+      <button class="tablinks" onclick="openTab(event, 'Education')">Education</button>
+      <button class="tablinks" onclick="openTab(event, 'Certifications')">Certifications</button>
+      <button class="tablinks" onclick="openTab(event, 'Contact')">Contact Me</button>
+    </nav>
+
+    <!-- Tab Contents -->
+    <section id="About" class="tabcontent">
+      <h2>About</h2>
+      <p>
+        Passionate and forward-thinking Computer Engineering student with a robust foundation in Python, data analytics, and web development. Proven track record of innovative project implementation and collaborative problem-solving. Seeking opportunities to leverage my skills in dynamic tech environments.
+      </p>
+    </section>
+
+    <section id="Education" class="tabcontent">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>B.Tech in Computer Engineering (Ongoing)</strong> - ABES Engineering College, Ghaziabad</li>
+        <li><strong>Class 12th (CBSE), 81%</strong> - St. Thomas School, Indirapuram</li>
+        <li><strong>Class 10th (CBSE), 92.4%</strong> - St. Thomas School, Sahibabad</li>
+      </ul>
+    </section>
+
+    <section id="Certifications" class="tabcontent">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Python for Data Analysis - Coursera</li>
+        <li>Web Development Bootcamp - Udemy</li>
+        <li>Data Structures and Algorithms - GeeksforGeeks</li>
+      </ul>
+    </section>
+
+    <section id="Contact" class="tabcontent">
+      <h2>Contact Me</h2>
+      <form action="mailto:arnavwork08@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+
+    <footer>
+      &copy; 2025 Arnav Singh. All Rights Reserved.
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*function add(a, b, ...params) {
+            
+            console.log(params); // logs all values after first two
+            let sum = 0;
+            //for (let i = 0; i < params.length; i++) {
+                //sum += params[i];
+            //}
+            for(let i of params){
+                sum += i;
+            }
+            console.log(sum); // sum of rest of the numbers
+        }
+        add(1,2,3,4,5,6);
+
+        //spread function
+        let num=[1,2,3,4,5,6,7,8,9];
+        console.log(Math.min(...num));
+
+        // copying array
+        let num2=[...num];
+        console.log(num2);
+
+        //merging array
+        let num3=[44,45,46,47];
+        let updatedarray=[...num,...num3];
+        console.log(updatedarray);*/
+       
+        let studentInfo = {
+            stName: 'Arnav',
+            age: 25,
+        };
+        let p={...studentInfo};
+        let addInfo = {
+            area: "Rajendra Nagar",
+            city: "GZB",
+            pincode: 201005,
+        };
+        
+        let info = { ...studentInfo, ...addInfo };
+        
+        console.log(info);
+        
+
+
+    </script>
+</body>
+</html>

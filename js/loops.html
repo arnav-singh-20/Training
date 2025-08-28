@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //for loop over number
+        /*let num=prompt("enter a number");
+        for(i=1;i<=10;i++){
+            let table=num*i;
+            document.write(table+"<br>");
+        }
+        let coursesNames=["Java","python","php","ibm"];
+        for(i=0;i<coursesNames.length;i++){
+            document.write(coursesNames[i]+"<br>");
+        }
+        //for in loops over object
+        let myInfo={
+            name:"Arnav",
+            age:19,
+            mob:123456789,
+            email:"anbhdg@email.com",
+            addInfo:{
+                area:"Rajendra Nagar",
+                city:"GZB",
+                pincode:201005
+            },
+            isMarried:true
+        }
+        for(x in myInfo){
+            document.write(`${myInfo[x]} <br>`)
+        }
+       let coursesNames=["Java","python","php","ibm"];
+        for(i in coursesNames){
+            document.write(coursesNames[i]+"<br>");
+        } 
+        let myName="Arnav"
+        for(let x in myName){
+            text= x+"<br>"
+            document.write(text)
+        }
+        //for of loops
+        let coursesNames=["Java","python","php","ibm"];
+        for(i of coursesNames){
+            document.write(coursesNames[i]+"<br>");
+        }*/
+        //WAP to display name of the day as per the given input
+        let num=prompt("enter a number");
+        let days = [ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday","Sunday"];
+        for (let i = 0; i < days.length; i++) {
+        if (i + 1 == num) {
+                   document.write(days[i]+"<br>")
+                }
+            }
+        //WAP to find prime number between 1 to 10
+        for (let num = 2; num <= 100; num++) {
+             let count=0 ;
+                for (let i = 2; i <= (num/2); i++) {
+                    if (num % i === 0){
+                           count=count+1;
+                            break;
+                             }
+                        }               
+                if(count==0) {
+                document.write(num+"<br>");
+               }
+            }
+        //WAP to count vowels in your given string
+        let vowels=["a","e","i","o","u","A","E","I","O","U"]
+        let name="Arnav"
+        let count=0
+        for(let i in vowels){
+            for(let x in name){
+                if(vowels[i]==name[x]){
+                    count=count+1
+                }
+            }
+        }
+        document.write(count)
+
+
+    </script>
+</body>
+</html>

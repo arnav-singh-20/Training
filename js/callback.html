@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<> , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*function first(){
+            console.log("Print second")
+        }
+        function second(){
+            console.log("print third")
+        }
+        first();
+        second();
+        function display(res){
+            console.log("addition of two number is $(res)")
+        }
+        function cal(a,b){
+            let sum=a+b;
+            return sum;
+        }
+        let result=cal(a,b);
+        display(result)
+        function display(res){
+            console.log(`addition of two number is ${res}`)
+        }
+        function cal(a,b,mycallBack){
+            let sum=a+b;
+            mycallBack(sum);
+        }
+        cal(3,4,display)*/
+        //using callback function
+        function first(){
+            console.log("Print first")
+        }
+        function second(){
+            console.log("print second")
+        }
+        function third(){
+            console.log("print third")
+        }
+        first();
+        setTimeout(second,2000);
+        third();
+    </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="demo">Hello JS</h1>
+
+    <p class="para">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+        ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+        ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+        ABCDEFGHIJKLMNOPQRSTUVWXYZ
+    </p>
+
+    <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+    </ul>
+
+    <!-- Added an image element -->
+    <img id="abesLogo" alt="ABES Logo">
+
+    <script>
+        let element = document.getElementById("demo");
+        element.innerHTML = "hello world";
+
+        let elements2 = document.getElementsByClassName("para");
+        elements2[0].style.color = "red";
+
+        let elements3 = document.getElementsByTagName("h1");
+        elements3[0].style.backgroundColor = "#999";
+
+        // Correct query selector targeting the first list item (li) within a ul
+        let element4 = document.querySelector("ul li:first-child");
+        if(element4) {
+            element4.style.textTransform = "uppercase";
+        }
+
+        // Set the src attribute of the image using JavaScript
+        let imageElement = document.getElementById("ABES Logo");
+        imageElement.src = "path/to/your/abes-logo.png"; 
+
+        let elementAttr=document.getElementById("img");
+        let attributeDtl=elementAttr.getAttribute("title");
+        document.getElementById("img_dtl").innerHTML=attributeDtl;
+        elementAttr.setAttribute("alt","ABES GZB");
+
+
+    </script>
+</body>
+</html>
+

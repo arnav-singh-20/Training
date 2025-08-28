@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let info = new Map([
+            ['Name', 'Arnav'],
+            ['Mob', 7428775691],
+            ['Age', 20]
+        ]);
+        //printing 
+        console.log(info);
+
+        // use of set function
+        console.log(info.set('Name','Arya'));
+
+        //use of get function
+        console.log(info.get('Age'));
+
+        //use of delete function
+        console.log(info.delete('Age'))
+
+        //displaying after deletion
+        console.log(info);
+
+        //to check for a key
+        console.log(info.has('Name'));
+
+    </script>
+</body>
+</html>

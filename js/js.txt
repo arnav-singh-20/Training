@@ -1,0 +1,19 @@
+-Java script os a cross platform and object oriented language that is used to develop web application. it is a high level language
+-bootstrap is used to make the web page responsive 
+-css is used for styling of web pages
+-js is a loosely typed language
+-hosting phase and execution phase
+-primitive and non primitive
+-primitive are string bool number undefined null big int 
+-variables are defined by var let and const
+-non primitive are object , function and arrays
+-object is an entity which is defined in pair form of key and its values
+-fetch method mein we pass url 
+const url=""
+const option ={}
+const pr=fetch(url,option)
+console.log(pr)
+let successCB(res)=>{
+    console.log("data fetched successfully",res)
+}
+pr.then().catch()

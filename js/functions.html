@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function msg(){
+            console.log("Hello")
+        }
+        msg();
+        console.log(typeof(msg));
+        function add(num1,num2){
+            console.log(num1+num2);
+        }
+        add(2,3);
+        function mul(x,y){
+            return x*y;
+        }
+        mul(2,3);
+
+        const square= function(number){
+            return number*number;
+        };
+        const x=square(4);
+        console.log(x);
+        
+        //arrow function
+
+        let age=(person)=>console.log((person>=18)?"Valid age":"Invalid age");
+        age(28);
+        
+    </script>
+    <button onclick=age1(13)>Click on me!</button>
+    
+</body>
+</html>

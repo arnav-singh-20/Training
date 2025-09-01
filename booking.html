@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Payment Page</title>
+<style>
+body{
+    background-color: bisque;
+}
+.navbar {
+  background-color: rgb(130, 111, 238);
+  color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.navbar img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+table {
+  margin: 20px auto;
+}
+
+td {
+  padding: 20px;
+  vertical-align: top;
+}
+.bus-img {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <img src="cover.png" alt="logo">
+  <h2>Book Seat</h2>
+</div>
+
+<table>
+  <tr>
+    <td>
+      <h1>Select your payment method</h1>
+      <form action="Assignment2.html" method="get">
+        <input type="radio" name="payment" value="upi"> UPI <br><br>
+        <input type="radio" name="payment" value="atm"> ATM <br><br>
+        <button type="submit">Confirm Payment</button>
+      </form>
+    </td>
+
+    <td>
+      <img src="bus.jpeg" alt="Bus" width="300px" class="bus-img">
+    </td>
+  </tr>
+</table>
+
+<h1>Thanks for selecting our services</h1>
+
+</body>
+</html>

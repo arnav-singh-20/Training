@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bus Booking System</title>
+<style>
+body{
+    background-color: bisque;
+}
+.navbar {
+  background-color: rgb(130, 111, 238);
+  color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.navbar img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+fieldset {
+  width: 300px;
+  padding: 15px;
+}
+
+button {
+  margin-top: 10px;
+  background: blue;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+}
+.bus-img {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <img src="cover.png" alt="logo">
+  <h2>Book Seat</h2>
+</div>
+
+<h1>**** WELCOME TO BUS BOOKING SYSTEM ****</h1>
+
+<table align="center" cellspacing="20">
+<tr>
+  <td>
+    <fieldset>
+      <legend>USER DETAILS</legend>
+      <form action="booking.html" method="get">
+        <label>Username : </label>
+        <input type="text"><br><br>
+
+        <label>Password : </label>
+        <input type="password"><br><br>
+
+        <label>Gender : </label><br>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Others
+        <br><br>
+
+        <label>City : </label>
+        <select>
+          <option>Select</option>
+          <option>Gzb</option>
+          <option>Delhi</option>
+          <option>Noida</option>
+          <option>Gurugram</option>
+        </select>
+        <br><br>
+
+        <button type="submit">Book Seat</button>
+      </form>
+    </fieldset>
+  </td>
+
+  <td>
+    <img  src="bus.jpeg" alt="Bus" width="350px" class="bus-img">
+  </td>
+</tr>
+</table>
+
+</body>
+</html>

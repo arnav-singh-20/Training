@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-family: Arial, sans-serif;
+
+      /* Background image */
+      background: url("logo.jpg") no-repeat center center/cover;
+      position: relative;
+    }
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.544);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(255, 253, 253);
+            height: 60px;
+            display: flex;
+            align-items: center;
+            padding-left: 20px;
+            justify-content: center;
+        }
+        .navbar img {
+            border-radius: 50%;
+             width: 40px;
+             height: 40px;
+            margin-right: 10px;
+            }
+        .thought{
+            padding: 20px;
+            color: rgb(102, 78, 78);
+            font-size: large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+       .frame2 {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 100px;
+      
+    }
+
+    .aboutus {
+      border: 2px solid rgb(255, 255, 255); 
+      border-radius: 20px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); 
+      padding: 20px;
+      text-align: center;
+      max-width: 400px;
+      background: rgba(0, 0, 0, 0.8);
+    }
+    .academics{
+        border: 2px solid rgb(255, 253, 253); 
+      border-radius: 20px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); 
+      padding: 20px;
+      text-align: center;
+      max-width: 400px;
+      background: rgba(0, 0, 0, 0.8);
+    }
+    .plaement{
+         border: 2px solid rgb(255, 255, 255); 
+      border-radius: 20px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); 
+      padding: 20px;
+      text-align: center;
+      max-width: 400px;
+      background: rgba(0, 0, 0, 0.8);
+    }
+    .galery{
+         border: 2px solid rgb(255, 255, 255); 
+      border-radius: 20px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); 
+      padding: 20px;
+      text-align: center;
+      max-width: 400px;
+      background: rgba(0, 0, 0, 0.8);
+    }
+    .information{
+       border: 2px solid rgb(251, 248, 248); 
+       margin-top: 50px;
+       box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); 
+       padding: 20px;
+       text-align: center;
+      
+      background: rgba(0, 0, 0, 0.8);
+    }
+    .info{
+        text-align: center ;
+        margin-top: 100px;
+    }     .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover; /* keeps images uniform */
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img class="img-logo" src="logo.jpg" alt="logo">
+        <h2 class="abes-name">ABES ENGINEERING COLLEGE</h2>
+    </div>
+    <frame>
+    <div class="thought">
+        <marquee behavior="" direction="right"><---We pledge to position India as a Vishwa Guru in AI, leading innovation, ethics, and education, fulfilling our Prime Minister’s vision--->”.</marquee>
+    </div>
+    </frame>
+    <div class="frame2">
+        <div class="aboutus">
+            <h1>About Us</h1>
+            <img style="width: 100px; height:120px"   src="logo.jpg" alt="">
+            <p></p>
+        </div>
+        <div class="academics">
+           <h1>Academics</h1>
+           <img style="width: 100px; height:120px"   src="academics.jpg" alt="">
+        </div>
+        <div class="plaement">
+            <h1>Placement</h1>
+            <img style="width: 100px; height:120px"   src="placement.png" alt="">
+        </div>
+        <div class="galery">
+            <h1>Gallery</h1>
+            <img style="width: 100px; height:120px"   src="gallery.jpeg" alt="">
+        </div>
+        
+     </div>
+     <div class="information">
+        <p class="info">At ABES Engineering College, we ignite the flames of curiosity,
+            <br>knowledge, and innovation. Established over two decades ago<br>
+            under the esteemed Society for Educational Excellence, our<br>
+            institution has evolved into a dynamic center of learning nestled in<br>
+            the heart of Ghaziabad. Our unwavering commitment to excellence has<br>
+            garnered us noteworthy positions in the National Institute Ranking<br>
+            Framework (NIRF), a testament to our dedication to quality education.<br>
+            <br>
+            Beyond engineering, our academic spectrum encompasses a diverse range<br>
+            of programs, including M.Tech, MCA, and MBA courses, designed to cater<br>
+            to the multifaceted aspirations of our students. As we stride forward,<br>
+            our core values of integrity, excellence, and innovation remain at our<br>
+             foundation. ABES Engineering College is not just an institution; 
+            <br>it's a journey of transformation, empowerment, and enlightenment. <br>
+            Join us on this extraordinary voyage,
+            where potential finds its path, and<br> dreams take flight.</p>
+     </div>
+     <div class="gallery">
+    <img src="gallery.jpeg" alt="Gallery Image 1">
+    <img src="logo.jpg" alt="Gallery Image 2">
+    <img src="placement.png" alt="Gallery Image 3">
+    <img src="academics.jpg" alt="Gallery Image 4">
+  </div>
+</body>
+</html>

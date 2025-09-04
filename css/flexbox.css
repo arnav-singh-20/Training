@@ -1,0 +1,18 @@
+.container{
+    background-color: bisque;
+    height: 100vh;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box{
+    height: 150px;
+    background-color: skyblue;
+    margin: 10px;
+}
+.footer{
+    margin-top: 20px;
+    padding: 20px;
+    
+}
